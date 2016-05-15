@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>common/VerticalDivider.qml</file>
+        <file>demo/LabelLabelBarRow.qml</file>
+        <file>common/HorizontalDivider.qml</file>
+        <file>common/SwitchWithLeftLabel.qml</file>
+        <file>demo/LabelSwitchBarRow.qml</file>
+        <file>demo/LabelCheckBarRow.qml</file>
+        <file>common/SimpleTextTitle.qml</file>
+        <file>common/PopupPalette.qml</file>
+        <file>common/LabelCaption.qml</file>
+        <file>common/LabelBody.qml</file>
+        <file>common/LabelBodySecondary.qml</file>
+        <file>common/LabelSubheading.qml</file>
+        <file>common/LabelTitle.qml</file>
+        <file>common/LabelHeadline.qml</file>
+        <file>common/LabelDisplay1.qml</file>
+        <file>common/LabelDisplay2.qml</file>
+        <file>common/LabelDisplay3.qml</file>
+        <file>common/LabelDisplay4.qml</file>
+        <file>common/FloatingActionButton.qml</file>
+        <file>common/FloatingActionMiniButton.qml</file>
+        <file>common/IconActive.qml</file>
+        <file>common/IconInactive.qml</file>
+        <file>common/IconColored.qml</file>
+    </qresource>
+</RCC>

@@ -18,3 +18,10 @@ read more about this app here:
 TODO
 
 This app needs Qt 5.7 Beta and will be updated as soon as Qt 5.7 RC is out with different namespace for Qt QUick Controls 2 (qt.labs.controls)
+
+## License Information
+see LICENSE ( The Unlicense )
+
+see /images/LICENSE ( cc-by )
+
+Images from https://design.google.com/icons/ - then renamed to match Qt High DPI images and project-specific naming
