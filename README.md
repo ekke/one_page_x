@@ -16,3 +16,5 @@ The app is a simple one-page app without navigation
  
 read more about this app here:
 TODO
+
+This app needs Qt 5.7 Beta and will be updated as soon as Qt 5.7 RC is out with different namespace for Qt QUick Controls 2 (qt.labs.controls)
