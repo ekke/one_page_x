@@ -80,6 +80,8 @@ ApplicationWindow {
     property real opacityBodySecondary: secondaryTextOpacity
     property real opacityCaption: secondaryTextOpacity
 
+    //
+    property bool headlineColoredPrimary: false
 
     header: SimpleTextTitle {
         text: qsTr("A simple 1 - Page APP")
@@ -97,25 +99,8 @@ ApplicationWindow {
                 anchors.left: parent.left
                 LabelHeadline {
                     leftPadding: 10
-                    text: qsTr("Theme")
-                    color: headlineColoredPrimary.checked ? primaryColor : accentColor
-                }
-                LabelSwitchBarRow {
-                    text: qsTr("Dark Theme")
-                    checked: isDarkTheme
-                    onCheckedChanged: {
-                        appWindow.switchThemePalette(checked)
-                    }
-                }
-                LabelSwitchBarRow {
-                    id: headlineColoredPrimary
-                    text: qsTr("Headline Primary Color")
-                    checked: false
-                }
-                LabelHeadline {
-                    leftPadding: 10
                     text: qsTr("Some Fields")
-                    color: headlineColoredPrimary.checked ? primaryColor : accentColor
+                    color: headlineColoredPrimary ? primaryColor : accentColor
                 }
                 LabelCheckBarRow {
                     text: qsTr("E-mail")
@@ -134,7 +119,7 @@ ApplicationWindow {
                 LabelHeadline {
                     leftPadding: 10
                     text: qsTr("Show more Fields")
-                    color: headlineColoredPrimary.checked ? primaryColor : accentColor
+                    color: headlineColoredPrimary ? primaryColor : accentColor
                 }
                 LabelSwitchBarRow {
                     id: addressSwitch
@@ -173,8 +158,14 @@ ApplicationWindow {
                 LabelHeadline {
                     leftPadding: 6
                     text: qsTr("Color, Opacity depends on Theme")
-                    color: headlineColoredPrimary.checked ? primaryColor : accentColor
+                    color: headlineColoredPrimary ? primaryColor : accentColor
                 }
+                Label {
+                    leftPadding: 6
+                    opacity: opacityBodyAndButton
+                    text: qsTr("Swap Theme between Dark and Light from Options Menu")
+                }
+
                 Label {
                     leftPadding: 6
                     opacity: opacityBodyAndButton
@@ -208,7 +199,7 @@ ApplicationWindow {
                 LabelHeadline {
                     leftPadding: 6
                     text: qsTr("Verify Primary and Accent Colors")
-                    color: headlineColoredPrimary.checked ? primaryColor : accentColor
+                    color: headlineColoredPrimary ? primaryColor : accentColor
                 }
                 // the primary color
                 Column {
@@ -224,7 +215,7 @@ ApplicationWindow {
                             leftPadding: 6
                             anchors.verticalCenter: parent.verticalCenter
                             wrapMode: Text.WordWrap
-                            text: "Primary Light Color: " + appWindow.primaryLightColor
+                            text: qsTr("Primary Light Color: %1","").arg(primaryLightColor)
                             color: appWindow.textOnPrimaryLight
                         }
                     }
@@ -237,7 +228,7 @@ ApplicationWindow {
                             leftPadding: 6
                             anchors.verticalCenter: parent.verticalCenter
                             wrapMode: Text.WordWrap
-                            text: "Primary Color: " + appWindow.primaryColor + " --- Tap to edit"
+                            text: qsTr("Primary Color: %1 --- Tap to edit","").arg(primaryColor)
                             color: appWindow.textOnPrimary
                         }
                         MouseArea {
@@ -258,7 +249,7 @@ ApplicationWindow {
                             leftPadding: 6
                             anchors.verticalCenter: parent.verticalCenter
                             wrapMode: Text.WordWrap
-                            text: "Primary Dark Color: " + appWindow.primaryDarkColor
+                            text: qsTr("Primary Dark Color: %1","").arg(primaryDarkColor)
                             color: appWindow.textOnPrimaryDark
                         }
                     }
@@ -273,7 +264,7 @@ ApplicationWindow {
                         leftPadding: 6
                         anchors.verticalCenter: parent.verticalCenter
                         wrapMode: Text.WordWrap
-                        text: "Accent Color: " + appWindow.accentColor + " --- Tap to edit"
+                        text: qsTr("Accent Color: %1 --- Tap to edit","").arg(accentColor)
                         color: appWindow.textOnAccent
                     }
                     MouseArea {
@@ -289,7 +280,7 @@ ApplicationWindow {
                 LabelHeadline {
                     leftPadding: 6
                     text: qsTr("Fonts, Sizes, Opacity")
-                    color: headlineColoredPrimary.checked ? primaryColor : accentColor
+                    color: headlineColoredPrimary ? primaryColor : accentColor
                 }
                 LabelDisplay4 {
                     leftPadding: 6
@@ -358,11 +349,11 @@ ApplicationWindow {
                 LabelHeadline {
                     leftPadding: 6
                     text: qsTr("Icons")
-                    color: headlineColoredPrimary.checked ? primaryColor : accentColor
+                    color: headlineColoredPrimary ? primaryColor : accentColor
                 }
                 LabelSubheading {
                     leftPadding: 6
-                    text: "HighDPI support finds 24 px Image @[1..4]:"
+                    text: "HighDPI 24 px Icon: @[1..4]:"
                 }
                 Image {
                     opacity: iconActiveOpacity
@@ -370,13 +361,13 @@ ApplicationWindow {
                 }
                 Label {
                     leftPadding: 6
-                    text: "Icon Opacity Active: "+iconActiveOpacity + " Inactive: " + iconInactiveOpacity
+                    text: qsTr("Icon Opacity Active: %1\nIcon Opacity Inactive: %2","").arg(iconActiveOpacity).arg(iconInactiveOpacity)
                 }
                 HorizontalDivider {}
                 LabelHeadline {
                     leftPadding: 6
                     text: "18x18"
-                    color: headlineColoredPrimary.checked ? primaryColor : accentColor
+                    color: headlineColoredPrimary ? primaryColor : accentColor
                 }
                 RowLayout {
                     VerticalDivider {}
@@ -441,7 +432,7 @@ ApplicationWindow {
                 LabelHeadline {
                     leftPadding: 6
                     text: "Default: 24x24 (160dpi)"
-                    color: headlineColoredPrimary.checked ? primaryColor : accentColor
+                    color: headlineColoredPrimary ? primaryColor : accentColor
                 }
                 RowLayout {
                     VerticalDivider {}
@@ -502,7 +493,7 @@ ApplicationWindow {
                 LabelHeadline {
                     leftPadding: 6
                     text: "36x36"
-                    color: headlineColoredPrimary.checked ? primaryColor : accentColor
+                    color: headlineColoredPrimary ? primaryColor : accentColor
                 }
                 RowLayout {
                     VerticalDivider {}
@@ -567,7 +558,7 @@ ApplicationWindow {
                 LabelHeadline {
                     leftPadding: 6
                     text: "48x48"
-                    color: headlineColoredPrimary.checked ? primaryColor : accentColor
+                    color: headlineColoredPrimary ? primaryColor : accentColor
                 }
                 RowLayout {
                     VerticalDivider {}
@@ -632,7 +623,7 @@ ApplicationWindow {
                 LabelHeadline {
                     leftPadding: 6
                     text: "Floating Action Button (Default)"
-                    color: headlineColoredPrimary.checked ? primaryColor : accentColor
+                    color: headlineColoredPrimary ? primaryColor : accentColor
                 }
                 RowLayout {
                     VerticalDivider {}
@@ -641,6 +632,7 @@ ApplicationWindow {
                         FloatingActionButton {
                             imageSource: "qrc:/images/"+iconOnPrimaryLightFolder+"/person.png"
                             backgroundColor: primaryLightColor
+                            onClicked: console.log("do something if clicked")
                         }
                         LabelCaption {
                             text: "P... light"
@@ -691,7 +683,7 @@ ApplicationWindow {
                 LabelHeadline {
                     leftPadding: 6
                     text: "Floating Action Button (Mini)"
-                    color: headlineColoredPrimary.checked ? primaryColor : accentColor
+                    color: headlineColoredPrimary ? primaryColor : accentColor
                 }
                 RowLayout {
                     VerticalDivider {}
@@ -757,9 +749,6 @@ ApplicationWindow {
     }
     function switchAccentPalette(paletteIndex) {
         accentPalette = myApp.accentPalette(paletteIndex)
-    }
-    function switchThemePalette(isDark) {
-        themePalette = myApp.themePalette(isDark)
     }
 
     //

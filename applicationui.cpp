@@ -17,10 +17,10 @@ ApplicationUI::ApplicationUI(QObject *parent) : QObject(parent)
 }
 
 /* Change Theme Palette */
-QStringList ApplicationUI::themePalette(const bool isDark)
+QStringList ApplicationUI::swapThemePalette()
 {
-    mIsDarkTheme = isDark;
-    if (isDark) {
+    mIsDarkTheme = !mIsDarkTheme;
+    if (mIsDarkTheme) {
         return darkPalette;
     }
     return lightPalette;
@@ -30,10 +30,9 @@ QStringList ApplicationUI::themePalette(const bool isDark)
 QStringList ApplicationUI::defaultThemePalette()
 {
     if (mIsDarkTheme) {
-        return themePalette(true);
-    } else {
-        return themePalette(false);
+        return darkPalette;
     }
+    return lightPalette;
 }
 
 /* Get one of the Primary Palettes */

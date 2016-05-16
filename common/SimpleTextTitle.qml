@@ -28,7 +28,6 @@ ToolBar {
                 source: "qrc:/images/"+iconOnPrimaryFolder+"/more_vert.png"
             }
             onClicked: {
-                console.log("will OPEN popup")
                 optionsMenu.open()
             }
             Menu {
@@ -36,12 +35,16 @@ ToolBar {
                 x: parent.width - width
                 transformOrigin: Menu.TopRight
                 MenuItem {
-                    text: "Something"
-                    // onTriggered: //
+                    text: isDarkTheme? qsTr("Light Theme") : qsTr("Dark Theme")
+                    onTriggered: {
+                        themePalette = myApp.swapThemePalette()
+                    }
                 }
                 MenuItem {
-                    text: "Something else"
-                    // onTriggered: //
+                    text: headlineColoredPrimary? qsTr("Headline Accent Color") : qsTr("Headline Primary Color")
+                    onTriggered: {
+                        headlineColoredPrimary = !headlineColoredPrimary
+                    }
                 }
             } // end optionsMenu
         } // end ToolButton

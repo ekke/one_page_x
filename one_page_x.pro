@@ -52,6 +52,7 @@ include(deployment.pri)
 # 1. Run Tools-External-Linguist-Update
 # 2. Run Linguist and do translations
 # 3. Build and run on iOS and Android to verify translations
+# 4. Optional: if translations not done: Run Tools-External-Linguist-Release
 
 # Supported languages
 LANGUAGES = de en

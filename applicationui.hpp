@@ -12,7 +12,7 @@ public:
      ApplicationUI(QObject *parent = 0);
 
      Q_INVOKABLE
-     QStringList themePalette(const bool isDark);
+     QStringList swapThemePalette();
 
      Q_INVOKABLE
      QStringList defaultThemePalette();
