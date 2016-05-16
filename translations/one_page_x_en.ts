@@ -214,7 +214,7 @@
     <message>
         <location filename="../main.qml" line="160"/>
         <source>Color, Opacity depends on Theme</source>
-        <translation></translation>
+        <translation>Color, Opacity</translation>
     </message>
     <message>
         <location filename="../main.qml" line="166"/>
@@ -249,7 +249,7 @@
     <message>
         <location filename="../main.qml" line="282"/>
         <source>Fonts, Sizes, Opacity</source>
-        <translation></translation>
+        <translation>Fonts: Sizes, Opacit</translation>
     </message>
     <message>
         <location filename="../main.qml" line="351"/>

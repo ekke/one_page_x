@@ -222,7 +222,7 @@
     <message>
         <location filename="../main.qml" line="160"/>
         <source>Color, Opacity depends on Theme</source>
-        <translation>Farbe, Deckkraft Themenabhängig</translation>
+        <translation>Farbe, Deckkraft</translation>
     </message>
     <message>
         <location filename="../main.qml" line="166"/>
@@ -257,7 +257,7 @@
     <message>
         <location filename="../main.qml" line="282"/>
         <source>Fonts, Sizes, Opacity</source>
-        <translation>Fonts, Größen, Deckkraft</translation>
+        <translation>Fonts: Größen, Deckkraft</translation>
     </message>
     <message>
         <location filename="../main.qml" line="351"/>
