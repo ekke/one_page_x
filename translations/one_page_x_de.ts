@@ -232,7 +232,7 @@
     <message>
         <location filename="../main.qml" line="201"/>
         <source>Verify Primary and Accent Colors</source>
-        <translation>Prüfe Primär- und Akzentfarben</translation>
+        <translation>Primär- und Akzentfarben</translation>
     </message>
     <message>
         <location filename="../main.qml" line="218"/>
@@ -252,7 +252,7 @@
     <message>
         <location filename="../main.qml" line="267"/>
         <source>Accent Color: %1 --- Tap to edit</source>
-        <translation>Akzentfarbe: %1 --- Tippen zum änder</translation>
+        <translation>Akzentfarbe: %1 --- Tippen zum ändern</translation>
     </message>
     <message>
         <location filename="../main.qml" line="282"/>

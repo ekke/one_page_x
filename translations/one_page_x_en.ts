@@ -224,7 +224,7 @@
     <message>
         <location filename="../main.qml" line="201"/>
         <source>Verify Primary and Accent Colors</source>
-        <translation></translation>
+        <translation>Primary and Accent Colors</translation>
     </message>
     <message>
         <location filename="../main.qml" line="218"/>
