@@ -37,8 +37,14 @@ More screeenshots and detailed description you'll find at my blog: TODO
 
 ## Screenshots Android
 ![alt tag](https://appbus.files.wordpress.com/2016/04/one_x_a_01.png "Screenshot Android (01)")
+
+
 ![alt tag](https://appbus.files.wordpress.com/2016/04/one_x_a_02.png "Screenshot Android (02)")
+
+
 ![alt tag](https://appbus.files.wordpress.com/2016/04/one_x_a_03.png "Screenshot Android (03)")
+
+
 ![alt tag](https://appbus.files.wordpress.com/2016/04/one_x_a_04.png "Screenshot Android (04)")
 
 ## Screenshot iOS
