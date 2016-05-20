@@ -1,5 +1,6 @@
 # one_page_x
 Sample APP - Qt 5.7+ - Android iOS
+
 [AUTHOR ( ekke )](AUTHOR.md)
 
 This app is part of ekke's blog series about mobile x-platform development:
@@ -27,7 +28,7 @@ Images created by ekke:
 
 * test.png
 
-Other Images downloaded from https://design.google.com/icons/ - then renamed to match Qt High DPI images and project-specific naming
+Other Images downloaded from https://design.google.com/icons/ - then renamed to match Qt High DPI images- and project-specific- naming
 
 [see /images/LICENSE ( cc-by )](images/LICENSE)
 
