@@ -1,7 +1,8 @@
 # one_page_x
 Sample APP - Qt 5.7+ - Android iOS
+[AUTHOR ( ekke )](AUTHOR.md)
 
-This app is part of my blog series about mobile x-platform development:
+This app is part of ekke's blog series about mobile x-platform development:
 http://j.mp/qt-x
 
 This is not a real-live app - this app demonstrates the use of Material style:
