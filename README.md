@@ -35,16 +35,16 @@ This sample app uses Material Design with UI Controls provided by Qt 5.7+ and wa
 
 More screeenshots and detailed description you'll find at my blog: TODO
 
-## Screenshots Android
+### Screenshot Android (1 of 4)
 ![alt tag](https://appbus.files.wordpress.com/2016/04/one_x_a_01.png "Screenshot Android (01)")
 
-
+### Screenshot Android (2 of 4)
 ![alt tag](https://appbus.files.wordpress.com/2016/04/one_x_a_02.png "Screenshot Android (02)")
 
-
+### Screenshot Android (3 of 4)
 ![alt tag](https://appbus.files.wordpress.com/2016/04/one_x_a_03.png "Screenshot Android (03)")
 
-
+### Screenshot Android (4 of 4)
 ![alt tag](https://appbus.files.wordpress.com/2016/04/one_x_a_04.png "Screenshot Android (04)")
 
 ## Screenshot iOS
