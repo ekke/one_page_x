@@ -20,7 +20,7 @@ TODO
 This app needs Qt 5.7 Beta and will be updated as soon as Qt 5.7 RC is out with different namespace for Qt QUick Controls 2 (qt.labs.controls)
 
 ## License Information
-see LICENSE ( The Unlicense )
+[see LICENSE ( The Unlicense )](LICENSE)
 
 Images created by ekke:
 
@@ -31,7 +31,7 @@ Other Images downloaded from https://design.google.com/icons/ - then renamed to 
 see /images/LICENSE ( cc-by )
 
 ## Screenshots
-This sample app uses Material Design with UI Controls provided by Qt 5.7+ and was designed and tested on Android (BlackBerry PRIV Android 6.0.1) and iOS (iPhone 6s iOS 9.3). Light and dark theme can be selected. A short overview what this app demonstrates see following screenshots: 3 from Android using light theme, one from iOS using dark theme.
+This sample app uses Material Design with UI Controls provided by Qt 5.7+ and was designed and tested on Android (BlackBerry PRIV Android 6.0.1) and iOS (iPhone 6s iOS 9.3). Light and dark theme can be selected. A short overview what this app demonstrates see following screenshots: 4 from Android using light theme, one from iOS using dark theme.
 
 More screeenshots and detailed description you'll find at my blog: TODO
 
