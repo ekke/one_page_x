@@ -18,6 +18,15 @@ namespace constants {
  * {primaryLightColor, primaryColor, primaryDarkColor
  *     textOnPrimaryLight, textOnPrimary, textOnPrimaryDark
  *     iconOnPrimaryLightFolder, iconOnPrimaryFolder, iconOnPrimaryDarkFolder}
+ *
+ * In Qt 5.7 there are more ways tp get access to Material colors:
+ * http://code.qt.io/cgit/qt/qtquickcontrols2.git/tree/src/imports/controls/material/qquickmaterialstyle_p.h?h=5.7#n235
+ * to get access from QML:
+ * import QtQuick 2.5
+ * import QtQuick.Controls 2.0
+ * import QtQuick.Controls.Material 2.0
+ * color: Material.color(Material.Purple, Material.Shade900
+ * I'll expolain this in another sample app
 */
 
 static const QStringList materialRed {"#FFCDD2", "#F44336", "#D32F2F", "#000000", "#FFFFFF", "#FFFFFF", "black", "white", "white"};
