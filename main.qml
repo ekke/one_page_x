@@ -11,7 +11,7 @@ import "demo"
 // This app is NOT a production ready app
 // This app's goal is only to help you to understand some concepts
 // see blog http://j.mp/qt-x to learn about Qt 5.7 for Material - styled Android or iOS Apps
-// learn about this one_page_x app from this article: TODO
+// learn about this one_page_x app from this article: http://j.mp/qt-one-page-x
 // ekke (Ekkehard gentz) @ekkescorner
 
 ApplicationWindow {
