@@ -16,7 +16,7 @@ import "demo"
 
 ApplicationWindow {
     id: appWindow
-    title: qsTr("One Page UI")
+    // visibile must set to true - default is false
     visible: true
     // primary and accent properties:
     property variant primaryPalette: myApp.defaultPrimaryPalette()
