@@ -6,7 +6,7 @@ Sample APP - Qt 5.7+ - Android iOS
 This app is part of ekke's blog series about mobile x-platform development:
 http://j.mp/qt-x
 
-This is not a real-live app - this app demonstrates the use of Material style:
+This is not a real-life app - this app demonstrates the use of Material style:
 
 * first steps with Qt 5.7 and Qt Quick Controls 2
 * High DPI support and images
@@ -51,3 +51,8 @@ More screeenshots and detailed description you'll find at my blog: http://j.mp/q
 
 ## Screenshot iOS
 ![alt tag](https://appbus.files.wordpress.com/2016/04/one_x_ios_01.png "Screenshot Android (01)")
+
+## next steps
+See how navigation using a StackView works:
+* blog article: http://bit.ly/qt-stacked-pages-x
+* github: https://github.com/ekke/stacked_pages_x
