@@ -19,7 +19,7 @@ The app is a simple one-page app without navigation
 read more about this app here:
 http://j.mp/qt-one-page-x
 
-This app needs Qt 5.7 Beta and will be updated as soon as Qt 5.7 RC is out with different namespace for Qt QUick Controls 2 (qt.labs.controls)
+This app needs Qt 5.7 RC or greater
 
 ## License Information
 [see LICENSE ( The Unlicense )](LICENSE)
