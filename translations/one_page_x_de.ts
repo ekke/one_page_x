@@ -4,97 +4,97 @@
 <context>
     <name>PopupPalette</name>
     <message>
-        <location filename="../common/PopupPalette.qml" line="71"/>
+        <location filename="../common/PopupPalette.qml" line="73"/>
         <source>Material Red</source>
         <translation>Material Rot</translation>
     </message>
     <message>
-        <location filename="../common/PopupPalette.qml" line="72"/>
+        <location filename="../common/PopupPalette.qml" line="74"/>
         <source>Material Pink</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../common/PopupPalette.qml" line="73"/>
+        <location filename="../common/PopupPalette.qml" line="75"/>
         <source>Material Purple</source>
         <translation>Material Lila</translation>
     </message>
     <message>
-        <location filename="../common/PopupPalette.qml" line="74"/>
+        <location filename="../common/PopupPalette.qml" line="76"/>
         <source>Material DeepPurple</source>
         <translation>Material Dunkel Lila</translation>
     </message>
     <message>
-        <location filename="../common/PopupPalette.qml" line="75"/>
+        <location filename="../common/PopupPalette.qml" line="77"/>
         <source>Material Indigo</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../common/PopupPalette.qml" line="76"/>
+        <location filename="../common/PopupPalette.qml" line="78"/>
         <source>Material Blue</source>
         <translation>Material Blau</translation>
     </message>
     <message>
-        <location filename="../common/PopupPalette.qml" line="77"/>
+        <location filename="../common/PopupPalette.qml" line="79"/>
         <source>Material LightBlue</source>
         <translation>Material Hellblau</translation>
     </message>
     <message>
-        <location filename="../common/PopupPalette.qml" line="78"/>
+        <location filename="../common/PopupPalette.qml" line="80"/>
         <source>Material Cyan</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../common/PopupPalette.qml" line="79"/>
+        <location filename="../common/PopupPalette.qml" line="81"/>
         <source>Material Teal</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../common/PopupPalette.qml" line="80"/>
+        <location filename="../common/PopupPalette.qml" line="82"/>
         <source>Material Green</source>
         <translation>Material Grün</translation>
     </message>
     <message>
-        <location filename="../common/PopupPalette.qml" line="81"/>
+        <location filename="../common/PopupPalette.qml" line="83"/>
         <source>Material LightGreen</source>
         <translation>Material Hellgrün</translation>
     </message>
     <message>
-        <location filename="../common/PopupPalette.qml" line="82"/>
+        <location filename="../common/PopupPalette.qml" line="84"/>
         <source>Material Lime</source>
         <translation>Material Limette</translation>
     </message>
     <message>
-        <location filename="../common/PopupPalette.qml" line="83"/>
+        <location filename="../common/PopupPalette.qml" line="85"/>
         <source>Material Yellow</source>
         <translation>Material Gelb</translation>
     </message>
     <message>
-        <location filename="../common/PopupPalette.qml" line="84"/>
+        <location filename="../common/PopupPalette.qml" line="86"/>
         <source>Material Amber</source>
         <translation>Material Bernstein</translation>
     </message>
     <message>
-        <location filename="../common/PopupPalette.qml" line="85"/>
+        <location filename="../common/PopupPalette.qml" line="87"/>
         <source>Material Orange</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../common/PopupPalette.qml" line="86"/>
+        <location filename="../common/PopupPalette.qml" line="88"/>
         <source>Material DeepOrange</source>
         <translation>Material Dunkel Orange</translation>
     </message>
     <message>
-        <location filename="../common/PopupPalette.qml" line="87"/>
+        <location filename="../common/PopupPalette.qml" line="89"/>
         <source>Material Brown</source>
         <translation>Material Braun</translation>
     </message>
     <message>
-        <location filename="../common/PopupPalette.qml" line="88"/>
+        <location filename="../common/PopupPalette.qml" line="90"/>
         <source>Material Grey</source>
         <translation>Material Grau</translation>
     </message>
     <message>
-        <location filename="../common/PopupPalette.qml" line="89"/>
+        <location filename="../common/PopupPalette.qml" line="91"/>
         <source>Material BlueGrey</source>
         <translation>Material Blaugrau</translation>
     </message>
@@ -125,9 +125,8 @@
 <context>
     <name>main</name>
     <message>
-        <location filename="../main.qml" line="19"/>
         <source>One Page UI</source>
-        <translation>Eine Seite UI</translation>
+        <translation type="vanished">Eine Seite UI</translation>
     </message>
     <message>
         <location filename="../main.qml" line="87"/>
